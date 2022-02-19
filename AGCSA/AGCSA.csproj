@@ -1,0 +1,377 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{904AA414-1F1E-428C-BF05-299DE040B4C5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AGCSA</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AGCSA</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\Inetpub\wwwroot\AGDemoCS\AGCSA\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;DemoVersion</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\Inetpub\wwwroot\AGDemoCS\AGCSA\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SCSCustomer|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\Inetpub\wwwroot\AGDemoCS\AGCSA\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SCSDemo|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\Inetpub\wwwroot\AGDemoCS\AGCSA\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DemoVersion</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActiveGanttCSACtl.bmp" />
+    <Compile Include="ActiveGanttCSACtl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAGCSARenderStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsButtonBorderStyle.cs" />
+    <Compile Include="clsButtonState.cs" />
+    <Compile Include="clsCell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCells.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsClientArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCollectionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsColumns.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCustomBorderStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDrawing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGraphics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHorizontalScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHScrollBarTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsItemBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLayers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMilestoneStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMouseKeyboardEvents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPercentage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPercentages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPredecessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPredecessors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPredecessorStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsProgressLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRows.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsScrollBarSeparator.cs" />
+    <Compile Include="clsScrollBarStyle.cs" />
+    <Compile Include="clsSelectionRectangleStyle.cs" />
+    <Compile Include="clsSplitter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsString.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStyles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTasks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTaskStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTextFlags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTickMark.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTickMarkArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTickMarks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTierAppearance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTierArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTierColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTierColors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTierFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTimeBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTimeBlocks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTimeLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTimeLineScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTreeview.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVerticalScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsViews.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsViewState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVScrollBarTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsXML.cs" />
+    <Compile Include="CustomTierDrawEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DateTime.cs" />
+    <Compile Include="DesigntimeRegistryLicense.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrawEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KeyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MouseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NodeEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectAddedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectSelectedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectStateChangedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PredecessorDrawEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PredecessorExceptionEventArgs.cs" />
+    <Compile Include="RegistryLicenseProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RuntimeRegistryLicense.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScrollEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolTipEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
